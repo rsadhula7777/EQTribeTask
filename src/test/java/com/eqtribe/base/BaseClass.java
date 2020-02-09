@@ -63,10 +63,10 @@ public class BaseClass {
 
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host name", "localhost");
-		extent.setSystemInfo("Environemnt", "clubkitchen");
+		extent.setSystemInfo("Environemnt", "EQTribe");
 		extent.setSystemInfo("user", "Rajashekar");
 		// Tile of report
-		htmlReporter.config().setDocumentTitle("clubkitchen Test Project");
+		htmlReporter.config().setDocumentTitle("EQTribe Test Project");
 		// name of the report
 		htmlReporter.config().setReportName("Functional Test Automation Report");
 		// location of the chart
@@ -98,7 +98,7 @@ public class BaseClass {
 
 		ConfigDataProvider config = new ConfigDataProvider();
 
-		logger = Logger.getLogger("appbuilder");
+		logger = Logger.getLogger("EQTribe");
 		PropertyConfigurator.configure("Log4j.properties");
 		JsonReader.getJSONConfigData();
 		PropertyFileReader.loadProprtyFile();
