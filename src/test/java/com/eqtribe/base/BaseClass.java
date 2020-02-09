@@ -106,8 +106,10 @@ public class BaseClass {
 		 
 		if (browserName.equals(config.getBrowser())) {
 			
-			WebDriverManager.chromedriver().setup();
-		    driver = new ChromeDriver();
+		        WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setPageLoadStrategy(PageLoadStrategy.NONE);
+		        driver = new ChromeDriver(options);
 		    
 
 		} else if (browserName.equals(config.getBrowser())) {
