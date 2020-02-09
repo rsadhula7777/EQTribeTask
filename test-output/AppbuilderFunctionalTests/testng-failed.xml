@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppbuilderFunctionalTests]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.appbuilder.utilities.Reporting"/>
+  </listeners>
+  <test name="Appbuilder">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.appbuilder.testcases.TC_CreatePlatformStopStart_002"/>
+      <class name="com.appbuilder.testcases.TC_CreatePlatformArtifact_003"/>
+    </classes>
+  </test> <!-- Appbuilder -->
+  <test name="Appbuilder(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.appbuilder.testcases.TC_CreatePlatformStopStart_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startPlatform"/>
+          <include name="setUp"/>
+          <include name="destroyDeletePlatform"/>
+        </methods>
+      </class> <!-- com.appbuilder.testcases.TC_CreatePlatformStopStart_002 -->
+      <class name="com.appbuilder.testcases.TC_CreatePlatformArtifact_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.appbuilder.testcases.TC_CreatePlatformArtifact_003 -->
+    </classes>
+  </test> <!-- Appbuilder(failed) -->
+</suite> <!-- Failed suite [AppbuilderFunctionalTests] -->

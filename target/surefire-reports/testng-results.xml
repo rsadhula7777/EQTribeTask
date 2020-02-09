@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EQTribeFunctionalTests" duration-ms="60484" started-at="2020-02-09T12:28:53Z" finished-at="2020-02-09T12:29:53Z">
+    <groups>
+    </groups>
+    <test name="IphonePriceComparision" duration-ms="24938" started-at="2020-02-09T12:28:53Z" finished-at="2020-02-09T12:29:18Z">
+      <class name="com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="setUp" is-config="true" duration-ms="4745" started-at="2020-02-09T17:58:53Z" finished-at="2020-02-09T17:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccessAmazonURL()[pri:1, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="AccessAmazonURL" duration-ms="4934" started-at="2020-02-09T17:58:58Z" finished-at="2020-02-09T17:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessAmazonURL -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="getResult" is-config="true" duration-ms="8" started-at="2020-02-09T17:59:02Z" finished-at="2020-02-09T17:59:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessAmazonURL status=SUCCESS method=TC_VerifyIPhonePricesAmazonFlipkart.AccessAmazonURL()[pri:1, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchIphoneGetPrice()[pri:2, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="searchIphoneGetPrice" duration-ms="6477" started-at="2020-02-09T17:59:02Z" finished-at="2020-02-09T17:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIphoneGetPrice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-09T17:59:09Z" finished-at="2020-02-09T17:59:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchIphoneGetPrice status=SUCCESS method=TC_VerifyIPhonePricesAmazonFlipkart.searchIphoneGetPrice()[pri:2, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="goToFlipKartFetchIphonePrice()[pri:3, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="goToFlipKartFetchIphonePrice" duration-ms="7876" started-at="2020-02-09T17:59:09Z" finished-at="2020-02-09T17:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToFlipKartFetchIphonePrice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-09T17:59:17Z" finished-at="2020-02-09T17:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFlipKartFetchIphonePrice status=SUCCESS method=TC_VerifyIPhonePricesAmazonFlipkart.goToFlipKartFetchIphonePrice()[pri:3, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="tearDown" is-config="true" duration-ms="873" started-at="2020-02-09T17:59:17Z" finished-at="2020-02-09T17:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="compareValues()[pri:4, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="compareValues" duration-ms="0" started-at="2020-02-09T17:59:17Z" finished-at="2020-02-09T17:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareValues -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-09T17:59:17Z" finished-at="2020-02-09T17:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareValues status=SUCCESS method=TC_VerifyIPhonePricesAmazonFlipkart.compareValues()[pri:4, instance:com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart@6e75aa0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.eqtribe.testcases.TC_VerifyIPhonePricesAmazonFlipkart -->
+    </test> <!-- IphonePriceComparision -->
+    <test name="TripAdivisorReview" duration-ms="35458" started-at="2020-02-09T12:29:18Z" finished-at="2020-02-09T12:29:53Z">
+      <class name="com.eqtribe.testcases.TC_ReviewTripAdvisor">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="suiteSetUp" is-config="true" duration-ms="233" started-at="2020-02-09T17:58:53Z" finished-at="2020-02-09T17:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="setUp" is-config="true" duration-ms="4190" started-at="2020-02-09T17:59:18Z" finished-at="2020-02-09T17:59:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccessTripAdvisorURL()[pri:1, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="AccessTripAdvisorURL" duration-ms="30074" started-at="2020-02-09T17:59:22Z" finished-at="2020-02-09T17:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessTripAdvisorURL -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-09T17:59:52Z" finished-at="2020-02-09T17:59:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessTripAdvisorURL status=SUCCESS method=TC_ReviewTripAdvisor.AccessTripAdvisorURL()[pri:1, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="tearDown" is-config="true" duration-ms="1190" started-at="2020-02-09T17:59:52Z" finished-at="2020-02-09T17:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="suitetearDown()[pri:0, instance:com.eqtribe.testcases.TC_ReviewTripAdvisor@5a955565]" name="suitetearDown" is-config="true" duration-ms="473" started-at="2020-02-09T17:59:53Z" finished-at="2020-02-09T17:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitetearDown -->
+      </class> <!-- com.eqtribe.testcases.TC_ReviewTripAdvisor -->
+    </test> <!-- TripAdivisorReview -->
+  </suite> <!-- EQTribeFunctionalTests -->
+</testng-results>

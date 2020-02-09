@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AppbuilderFunctionalTests]">
+  <test name="startstop(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.appbuilder.testcases.TC_Login_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="setUp"/>
+          <include name="loginToAppbuilder"/>
+          <include name="suitetearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.appbuilder.testcases.TC_Login_001 -->
+    </classes>
+  </test> <!-- startstop(failed) -->
+</suite> <!-- Failed suite [AppbuilderFunctionalTests] -->

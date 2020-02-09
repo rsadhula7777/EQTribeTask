@@ -1,0 +1,20 @@
+{
+	"environments": {
+		"stage": {
+			"url": "https://www.amazon.in",
+			"url2": "https://www.flipkart.com/",
+			"url3": "https://www.tripadvisor.in/",
+			"iPhoneText": "iPhone XR (64GB) - Yellow",
+			"title1": "Amazon.in: iPhone XR (64GB) - Yellow",
+			"title2": "Apple iPhone XR (64GB) - Yellow: Amazon.in: Appario Retail Private Ltd",
+			"searchText":"Club Mahindra"
+		},
+		"production": {
+			"url": "XXXX",
+			"username": "XXXXX",
+			"pwd": "XXXX"
+		}
+	}
+}
+
+

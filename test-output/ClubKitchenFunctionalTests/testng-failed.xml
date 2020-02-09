@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ClubKitchenFunctionalTests]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="startstop">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.clubkitchen.testcases.TC_AddToCart"/>
+    </classes>
+  </test> <!-- startstop -->
+  <test name="startstop(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.clubkitchen.testcases.TC_AddToCart">
+        <methods>
+          <include name="setUp"/>
+          <include name="suiteSetUp"/>
+          <include name="addProductsToCart"/>
+          <include name="AccessClubKitchenMamacitaURL"/>
+          <include name="enterAddress"/>
+        </methods>
+      </class> <!-- com.clubkitchen.testcases.TC_AddToCart -->
+    </classes>
+  </test> <!-- startstop(failed) -->
+</suite> <!-- Failed suite [ClubKitchenFunctionalTests] -->
